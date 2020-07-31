@@ -1,3 +1,6 @@
+# This script will update the JSON file which is populating the react scoreboard app.
+# Please run the file from the project's root directory.
+
 import json
 import requests
 from datetime import datetime
