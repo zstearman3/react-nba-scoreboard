@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import GameHeader from './GameHeader.js';
+import GameDetails from './GameDetails.js';
 
 class Game extends PureComponent {
 
@@ -14,12 +15,7 @@ class Game extends PureComponent {
   }
 
   render() {
-
     let details;
-    if (this.state.isExpanded) {
-      details = "Some Details";
-    }
-
     const {
       awayTeam,
       awayNickname,
@@ -27,7 +23,33 @@ class Game extends PureComponent {
       homeTeam,
       homeNickname,
       homeScore,
+      awayQ1,
+      awayQ2,
+      awayQ3,
+      awayQ4,
+      homeQ1,
+      homeQ2,
+      homeQ3,
+      homeQ4
     } = this.props;
+
+    if (this.state.isExpanded) {
+      details = <GameDetails
+        awayNickname={awayNickname}
+        homeNickname={homeNickname}
+        awayScore={awayScore}
+        homeScore={homeScore}
+        awayQ1={awayQ1}
+        awayQ2={awayQ2}
+        awayQ3={awayQ3}
+        awayQ4={awayQ4}
+        homeQ1={homeQ1}
+        homeQ2={homeQ2}
+        homeQ3={homeQ3}
+        homeQ4={homeQ4}
+      />
+    }
+
     return (
       <div className="game">
         <GameHeader

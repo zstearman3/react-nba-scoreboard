@@ -1,1 +1,50 @@
-{"games": [{"tipTimeEastern": "6:30 PM ET", "awayTeam": {"name": "Utah", "nickname": "Jazz", "score": "106", "q1": "23", "q2": "25", "q3": "31", "q4": "27"}, "homeTeam": {"name": "New Orleans", "nickname": "Pelicans", "score": "104", "q1": "26", "q2": "34", "q3": "27", "q4": "17"}, "location": "HP Field House - Orlando, FL", "tvNetwork": "TNT"}, {"tipTimeEastern": "9:00 PM ET", "awayTeam": {"name": "Los Angeles", "nickname": "Clippers", "score": "101", "q1": "23", "q2": "29", "q3": "25", "q4": "24"}, "homeTeam": {"name": "Los Angeles", "nickname": "Lakers", "score": "103", "q1": "35", "q2": "19", "q3": "22", "q4": "27"}, "location": "The Arena (WWOS) - Orlando, FL", "tvNetwork": "TNT"}]}
+{
+  "games": [
+    {
+      "tipTimeEastern": "6:30 PM ET",
+      "awayTeam": {
+        "name": "Utah",
+        "nickname": "Jazz",
+        "score": "106",
+        "q1": "23",
+        "q2": "25",
+        "q3": "31",
+        "q4": "27"
+      },
+      "homeTeam": {
+        "name": "New Orleans",
+        "nickname": "Pelicans",
+        "score": "104",
+        "q1": "26",
+        "q2": "34",
+        "q3": "27",
+        "q4": "17"
+      },
+      "location": "HP Field House - Orlando, FL",
+      "tvNetwork": "TNT"
+    },
+    {
+      "tipTimeEastern": "9:00 PM ET",
+      "awayTeam": {
+        "name": "Los Angeles",
+        "nickname": "Clippers",
+        "score": "101",
+        "q1": "23",
+        "q2": "29",
+        "q3": "25",
+        "q4": "24"
+      },
+      "homeTeam": {
+        "name": "Los Angeles",
+        "nickname": "Lakers",
+        "score": "103",
+        "q1": "35",
+        "q2": "19",
+        "q3": "22",
+        "q4": "27"
+      },
+      "location": "The Arena (WWOS) - Orlando, FL",
+      "tvNetwork": "TNT"
+    }
+  ]
+}
