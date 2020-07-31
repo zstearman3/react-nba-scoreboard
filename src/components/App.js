@@ -7,9 +7,8 @@ function App() {
     <div className="App">
       {Data.games.map( (game, index) =>
         <Game
-          awayTeam={game.vTeam.triCode}
-          homeTeam={game.hTeam.triCode}
-          seasonYear={game.seasonYear}
+          awayTeam={game.awayTeam.name}
+          homeTeam={game.homeTeam.name}
         />
       )}
     </div>
