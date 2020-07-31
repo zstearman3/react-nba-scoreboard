@@ -1,4 +1,5 @@
-import React, {PureComponent} from 'react';
+import React, { PureComponent } from 'react';
+import GameHeader from './GameHeader.js';
 
 class Game extends PureComponent {
 
@@ -21,15 +22,25 @@ class Game extends PureComponent {
 
     const {
       awayTeam,
+      awayNickname,
+      awayScore,
       homeTeam,
+      homeNickname,
+      homeScore,
       seasonYear,
     } = this.props;
     return (
-      <div className="player">
-        <h2 class="game-headline">{awayTeam + " @ " + homeTeam}</h2>
-        <button className="expand-button" onClick={this.handleExpand}>
-          {this.state.isExpanded ? "Hide Details" : "Show Details"}
-        </button>
+      <div className="game">
+        <GameHeader
+          awayTeam={awayTeam}
+          awayNickname={awayNickname}
+          awayScore={awayScore}
+          homeNickname={homeNickname}
+          homeTeam={homeTeam}
+          homeScore={homeScore}
+          isExpanded={this.state.isExpanded}
+          handleExpand={this.handleExpand}
+        />
         {details}
       </div>
     );
