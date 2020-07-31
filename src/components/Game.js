@@ -27,7 +27,6 @@ class Game extends PureComponent {
       homeTeam,
       homeNickname,
       homeScore,
-      seasonYear,
     } = this.props;
     return (
       <div className="game">
