@@ -7,9 +7,18 @@ def get_games():
     api_url = "http://data.nba.net/10s/prod/v1/{}/scoreboard.json".format(DATE)
     response = requests.get(api_url)
     if response.status_code == 200:
-        return json.loads(response.content.decode('utf-8'))
+        data = json.loads(response.content.decode('utf-8'))
+        return data['games']
     else:
-        return 'Error'
+        return None
+
+def transform_games(games):
+    for game in games:
+        print(game['seasonYear'])
 
 if __name__ == '__main__':
-    print(get_games())
+    games = get_games()
+    if games:
+        transform_games(games)
+    else:
+        print('The API was not loaded properly.')
