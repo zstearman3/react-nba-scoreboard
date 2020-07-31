@@ -3,6 +3,7 @@
 
 import json
 import requests
+from tricodes import tricodes
 from datetime import datetime
 
 DATE = "20200727"
@@ -24,7 +25,8 @@ def transform_games(games):
         object = {
             'tipTimeEastern': game["startTimeEastern"],
             'awayTeam': {
-                'name': game["vTeam"]["triCode"],
+                'name': tricodes[game["vTeam"]["triCode"]]["team"],
+                'nickname': tricodes[game["vTeam"]["triCode"]]["nickname"],
                 'score': game["vTeam"]["score"],
                 'q1': game["vTeam"]["linescore"][0]["score"],
                 'q2': game["vTeam"]["linescore"][1]["score"],
@@ -32,7 +34,8 @@ def transform_games(games):
                 'q4': game["vTeam"]["linescore"][3]["score"]
                 },
             'homeTeam': {
-                'name': game["hTeam"]["triCode"],
+                'name': tricodes[game["hTeam"]["triCode"]]["team"],
+                'nickname': tricodes[game["hTeam"]["triCode"]]["nickname"],
                 'score': game["hTeam"]["score"],
                 'q1': game["hTeam"]["linescore"][0]["score"],
                 'q2': game["hTeam"]["linescore"][1]["score"],

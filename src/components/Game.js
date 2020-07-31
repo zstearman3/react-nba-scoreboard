@@ -25,8 +25,9 @@ class Game extends PureComponent {
       seasonYear,
     } = this.props;
     return (
-      <div>{awayTeam + " @ " + homeTeam}
-        <button onClick={this.handleExpand}>
+      <div className="player">
+        <h2 class="game-headline">{awayTeam + " @ " + homeTeam}</h2>
+        <button className="expand-button" onClick={this.handleExpand}>
           {this.state.isExpanded ? "Hide Details" : "Show Details"}
         </button>
         {details}
