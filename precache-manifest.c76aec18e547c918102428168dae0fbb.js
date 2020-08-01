@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe7012753021ae16d6e9884434ecf094",
+    "revision": "a8c2557bf884fd783be8c424521ea2b2",
     "url": "/react-nba-scoreboard/index.html"
   },
   {
-    "revision": "0b70e1f217093938b360",
-    "url": "/react-nba-scoreboard/static/css/main.49fcad5b.chunk.css"
+    "revision": "3de8e166c2711d0f784a",
+    "url": "/react-nba-scoreboard/static/css/main.000f027a.chunk.css"
   },
   {
     "revision": "8edbca94878f3c90c2f0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-nba-scoreboard/static/js/2.5f7e5024.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b70e1f217093938b360",
-    "url": "/react-nba-scoreboard/static/js/main.1565e79c.chunk.js"
+    "revision": "3de8e166c2711d0f784a",
+    "url": "/react-nba-scoreboard/static/js/main.37969a7f.chunk.js"
   },
   {
     "revision": "9749f7ee33dc21675fe7",
