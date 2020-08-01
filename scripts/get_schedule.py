@@ -17,9 +17,10 @@ def get_games(date):
     else:
         return None
 
-def transform_games(games):
+def transform_games(games, str):
     transformed_games = {}
     transformed_games['games'] = []
+    transformed_games['date'] = str
     for game in games:
         network = game["watch"]["broadcast"]["broadcasters"]["national"][0]["longName"] if len(game["watch"]["broadcast"]["broadcasters"]["national"]) > 0 else "None"
         object = {
@@ -60,10 +61,12 @@ if __name__ == '__main__':
             except:
                 date_str = input("The date was not valid. Please input date in MM/DD/YY format or leave blank for default. \n")
         else:
+            date = datetime.strptime(DATE, '%Y%m%d')
+            date_str = date.strftime('%m/%d/%y')
             formatted_date = DATE
             break
     games = get_games(formatted_date)
     if games:
-        transform_games(games)
+        transform_games(games, date_str)
     else:
         print('The API was not loaded properly.')

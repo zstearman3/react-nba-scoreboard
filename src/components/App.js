@@ -19,7 +19,10 @@ class App extends Component{
     teams = teams.sort();
     return (
       <div className="App">
-        <PageHeader teams={teams}/>
+        <PageHeader
+          date={Data.date}
+          teams={teams}
+        />
         {Data.games.map( (game, index) =>
           <Game
             awayTeam={game.awayTeam.name}

@@ -10,7 +10,7 @@ class PageHeader extends Component {
   render() {
     return(
       <>
-        <h1 id="page-title">NBA Scoreboard</h1>
+        <h1 id="page-title">NBA Scoreboard - {this.props.date}</h1>
 
         <form onSubmit = {this.handleSubmit}>
           <select>{this.props.teams.map((nickname,y) => <option key={y}>{nickname}</option>)}</select>
