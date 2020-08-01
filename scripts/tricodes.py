@@ -3,9 +3,21 @@ tricodes = {
         "team": "Brooklyn",
         "nickname": "Nets"
     },
+    'BOS': {
+        "team": "Boston",
+        "nickname": "Celtics"
+    },
+    'DAL': {
+        "team": "Dallas",
+        "nickname": "Mavericks"
+    },
     'DEN': {
         "team": "Denver",
         "nickname": "Nuggets"
+    },
+    'HOU': {
+        "team": "Houston",
+        "nickname": "Rockets"
     },
     'LAC': {
         "team": "Los Angeles",
@@ -14,6 +26,10 @@ tricodes = {
     'LAL': {
         "team": "Los Angeles",
         "nickname": "Lakers"
+    },
+    'MEM': {
+        "team": "Memphis",
+        "nickname": "Grizzlies"
     },
     'MIL': {
         "team": "Milwaukee",
@@ -31,9 +47,21 @@ tricodes = {
         "team": "Orlando",
         "nickname": "Magic"
     },
+    'PHX': {
+        "team": "Phoenix",
+        "nickname": "Suns"
+    },
+    'POR': {
+        "team": "Portland",
+        "nickname": "Trailblazers"
+    },
     'SAC': {
         "team": "Sacramento",
         "nickname": "Kings"
+    },
+    'SAS': {
+        "team": "San Antonio",
+        "nickname": "Spurs"
     },
     'UTA': {
         "team": "Utah",

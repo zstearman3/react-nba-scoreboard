@@ -30,7 +30,9 @@ class Game extends PureComponent {
       homeQ1,
       homeQ2,
       homeQ3,
-      homeQ4
+      homeQ4,
+      location,
+      tipTime,
     } = this.props;
 
     if (this.state.isExpanded) {
@@ -47,6 +49,8 @@ class Game extends PureComponent {
         homeQ2={homeQ2}
         homeQ3={homeQ3}
         homeQ4={homeQ4}
+        location={location}
+        tipTime={tipTime}
       />
     }
 

@@ -41,6 +41,8 @@ class App extends Component{
             homeQ4={game.homeTeam.q4}
             key={index}
             index={index}
+            location={game.location}
+            tipTime={game.tipTimeEastern}
           />
         )}
       </div>

@@ -100,8 +100,23 @@ input[type=submit] {
 
   .game-details .box-score{
     width: 80%;
+    float: left;
   }
 
     .game-details .box-score tr{
       text-align: left;
+    }
+
+  .game-details .details-text{
+    text-align: center;
+    margin: 0px;
+  }
+
+    .game-details .details-text p{
+      margin: 0px 0px 12px;
+    }
+
+    .game-details .details-text .game-location{
+      font-size: 12px;
+      margin-top: 2px;
     }

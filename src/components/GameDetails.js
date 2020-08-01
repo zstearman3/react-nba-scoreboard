@@ -14,7 +14,9 @@ const GameDetails = (props) => {
     homeQ2,
     homeQ3,
     homeQ4,
-    homeScore
+    homeScore,
+    location,
+    tipTime,
   } = props;
 
   return(
@@ -49,6 +51,10 @@ const GameDetails = (props) => {
           </tr>
         </tbody>
       </table>
+      <div className="details-text">
+        <p className="game-location">{location}</p>
+        <p className="game-tip-time">{tipTime}</p>
+      </div>
     </div>
   );
 }
