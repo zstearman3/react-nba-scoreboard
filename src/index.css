@@ -5,7 +5,8 @@ body {
 
 form {
   display: flex;
-  width: 700px;
+  max-width: 700px;
+  width: 90%;
   margin: auto;
 }
 
@@ -55,6 +56,10 @@ input[type=submit] {
 
 
 /* COMPONENT STYLES -----------------------*/
+.App{
+  width: 100%;
+}
+
 #page-title{
   margin: auto;
   text-align: center;
@@ -63,7 +68,8 @@ input[type=submit] {
 
 .game{
   background: #fff;
-  width: 700px;
+  max-width: 700px;
+  width: 90%;
   margin: 60px auto;
   box-shadow: 0 2px 0 rgb(201, 8, 42);
   border-radius: 6px;
