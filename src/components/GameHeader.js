@@ -14,6 +14,9 @@ class GameHeader extends PureComponent {
     } = this.props;
     return (
       <div className="game-headline">
+        <svg height="40" width="40">
+          <polygon points="20,0 8,40 40,16 0,16 32,40" />
+        </svg>
         <h3 className="away-team"><strong>{awayTeam}</strong> {awayNickname}</h3>
         <h4>{awayScore}</h4>
         <h3 className="home-team"><strong>{homeTeam}</strong> {homeNickname}</h3>

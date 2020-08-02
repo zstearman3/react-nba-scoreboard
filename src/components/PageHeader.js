@@ -2,10 +2,19 @@ import React, { Component } from 'react';
 
 class PageHeader extends Component {
 
-  favoriteTeam = React.createRef();
+  state = {
+    favoriteTeam: ""
+  }
 
-  handleSubmit = (e) =>
+  handleChange = (e) => {
+    this.setState({favoriteTeam: e.target.value});
+  };
+
+  handleSubmit = (e) => {
     e.preventDefault();
+    this.props.setFavoriteTeam(this.state.favoriteTeam);
+  };
+
 
   render() {
     return(
@@ -13,7 +22,10 @@ class PageHeader extends Component {
         <h1 id="page-title">NBA Scoreboard - {this.props.date}</h1>
 
         <form onSubmit = {this.handleSubmit}>
-          <select>{this.props.teams.map((nickname,y) => <option key={y}>{nickname}</option>)}</select>
+          <select onChange = {this.handleChange}>
+            <option disabled selected value>Choose Team</option>
+            {this.props.teams.map((nickname,y) => <option key={y}>{nickname}</option>)}
+          </select>
           <input type="submit" value="Choose Favorite Team" />
         </form>
       </>

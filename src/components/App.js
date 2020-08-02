@@ -5,10 +5,15 @@ import Game from './Game';
 
 class App extends Component{
   state = {
-      favoriteTeam: ''
+      favoriteTeam: "",
+      teams: []
   };
 
-  render () {
+  setFavoriteTeam = (team) => {
+    this.setState({favoriteTeam: team});
+  };
+
+  componentDidMount() {
     let teams = [];
 
     for(let i=0; i<Data.games.length; i++) {
@@ -17,11 +22,28 @@ class App extends Component{
     }
 
     teams = teams.sort();
+    this.setState({
+      teams: teams
+    });
+  }
+
+  render () {
+    // let teams = [];
+    //
+    // for(let i=0; i<Data.games.length; i++) {
+    //   teams.push(Data.games[i]["awayTeam"]["nickname"]);
+    //   teams.push(Data.games[i]["homeTeam"]["nickname"]);
+    // }
+    //
+    // teams = teams.sort();
+    // this.setState({favoriteTeam: teams[0]});
+
     return (
       <div className="App">
         <PageHeader
           date={Data.date}
-          teams={teams}
+          teams={this.state.teams}
+          setFavoriteTeam={this.setFavoriteTeam}
         />
         {Data.games.map( (game, index) =>
           <Game
@@ -43,6 +65,7 @@ class App extends Component{
             index={index}
             location={game.location}
             tipTime={game.tipTimeEastern}
+            favoriteGame={(this.state.favoriteTeam == game.homeTeam.nickname) || (this.state.favoriteTeam == game.awayTeam.nickname)}
           />
         )}
       </div>

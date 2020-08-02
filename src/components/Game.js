@@ -33,6 +33,7 @@ class Game extends PureComponent {
       homeQ4,
       location,
       tipTime,
+      favoriteGame
     } = this.props;
 
     if (this.state.isExpanded) {
@@ -55,7 +56,7 @@ class Game extends PureComponent {
     }
 
     return (
-      <div className="game">
+      <div className={favoriteGame ? "game favorite-game" : "game"}>
         <GameHeader
           awayTeam={awayTeam}
           awayNickname={awayNickname}

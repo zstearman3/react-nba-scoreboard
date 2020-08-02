@@ -54,6 +54,10 @@ input[type=submit] {
               color 0.2s ease;
 }
 
+svg{
+  display: none;
+}
+
 
 /* COMPONENT STYLES -----------------------*/
 .App{
@@ -83,6 +87,11 @@ input[type=submit] {
     justify-content: space-between;
     align-items: center;
   }
+
+.favorite-game svg{
+  display: block;
+  fill: gold;
+}
 
 .game button {
   float: right;
