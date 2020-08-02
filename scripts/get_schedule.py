@@ -6,7 +6,7 @@ import requests
 from tricodes import tricodes
 from datetime import datetime
 
-DATE = "20200727"
+DATE = "20200801"
 
 def get_games(date):
     api_url = "http://data.nba.net/10s/prod/v1/{}/scoreboard.json".format(date)
