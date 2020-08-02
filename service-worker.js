@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-nba-scoreboard/precache-manifest.7102d18b7026ddb79081abefb16a9c83.js"
+  "/react-nba-scoreboard/precache-manifest.d00c5d9ee3ffd69a62afbe6fde99563d.js"
 );
 
 self.addEventListener('message', (event) => {
