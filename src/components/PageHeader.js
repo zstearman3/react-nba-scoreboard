@@ -22,8 +22,8 @@ class PageHeader extends Component {
         <h1 id="page-title">NBA Scoreboard - {this.props.date}</h1>
 
         <form onSubmit = {this.handleSubmit}>
-          <select onChange = {this.handleChange}>
-            <option disabled selected value>Choose Team</option>
+          <select defaultValue={'DEFAULT'} onChange = {this.handleChange}>
+            <option disabled value="DEFAULT">Choose Team</option>
             {this.props.teams.map((nickname,y) => <option key={y}>{nickname}</option>)}
           </select>
           <input type="submit" value="Choose Favorite Team" />

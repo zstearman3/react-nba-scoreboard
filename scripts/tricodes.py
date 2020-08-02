@@ -19,6 +19,10 @@ tricodes = {
         "team": "Houston",
         "nickname": "Rockets"
     },
+    'IND': {
+        "team": "Indiana",
+        "nickname": "Pacers"
+    },
     'LAC': {
         "team": "Los Angeles",
         "nickname": "Clippers"
@@ -30,6 +34,10 @@ tricodes = {
     'MEM': {
         "team": "Memphis",
         "nickname": "Grizzlies"
+    },
+    'MIA': {
+        "team": "Miami",
+        "nickname": "Heat"
     },
     'MIL': {
         "team": "Milwaukee",
@@ -47,6 +55,10 @@ tricodes = {
         "team": "Orlando",
         "nickname": "Magic"
     },
+    'PHI': {
+        "team": "Philadelphia",
+        "nickname": "76ers"
+    },
     'PHX': {
         "team": "Phoenix",
         "nickname": "Suns"
@@ -62,6 +74,10 @@ tricodes = {
     'SAS': {
         "team": "San Antonio",
         "nickname": "Spurs"
+    },
+    'TOR': {
+        "team": "Toronto",
+        "nickname": "Raptors"
     },
     'UTA': {
         "team": "Utah",

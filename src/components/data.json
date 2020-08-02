@@ -1,143 +1,120 @@
 {
   "games": [
     {
-      "tipTimeEastern": "2:30 PM ET",
+      "tipTimeEastern": "1:00 PM ET",
       "awayTeam": {
-        "name": "Orlando",
-        "nickname": "Magic",
-        "score": "128",
-        "q1": "36",
-        "q2": "34",
-        "q3": "41",
-        "q4": "17"
-      },
-      "homeTeam": {
-        "name": "Brooklyn",
-        "nickname": "Nets",
-        "score": "118",
-        "q1": "39",
-        "q2": "20",
-        "q3": "23",
-        "q4": "36"
-      },
-      "location": "HP Field House - Orlando, FL",
-      "tvNetwork": "None"
-    },
-    {
-      "tipTimeEastern": "4:00 PM ET",
-      "awayTeam": {
-        "name": "Memphis",
-        "nickname": "Grizzlies",
-        "score": "135",
-        "q1": "30",
-        "q2": "30",
-        "q3": "36",
-        "q4": "28"
-      },
-      "homeTeam": {
-        "name": "Portland",
-        "nickname": "Trailblazers",
-        "score": "140",
-        "q1": "35",
-        "q2": "33",
-        "q3": "25",
-        "q4": "31"
-      },
-      "location": "The Arena (WWOS) - Orlando, FL",
-      "tvNetwork": "NBA TV"
-    },
-    {
-      "tipTimeEastern": "4:00 PM ET",
-      "awayTeam": {
-        "name": "Phoenix",
-        "nickname": "Suns",
+        "name": "Miami",
+        "nickname": "Heat",
         "score": "125",
-        "q1": "38",
-        "q2": "29",
-        "q3": "22",
-        "q4": "36"
-      },
-      "homeTeam": {
-        "name": "Washington",
-        "nickname": "Wizards",
-        "score": "112",
-        "q1": "31",
-        "q2": "21",
-        "q3": "29",
+        "q1": "28",
+        "q2": "28",
+        "q3": "38",
         "q4": "31"
       },
-      "location": "VISA Athletic Center - Orlando, FL",
-      "tvNetwork": "None"
-    },
-    {
-      "tipTimeEastern": "6:30 PM ET",
-      "awayTeam": {
-        "name": "Boston",
-        "nickname": "Celtics",
-        "score": "112",
-        "q1": "25",
-        "q2": "33",
-        "q3": "29",
-        "q4": "25"
-      },
       "homeTeam": {
-        "name": "Milwaukee",
-        "nickname": "Bucks",
-        "score": "119",
-        "q1": "33",
+        "name": "Denver",
+        "nickname": "Nuggets",
+        "score": "105",
+        "q1": "26",
         "q2": "31",
-        "q3": "23",
-        "q4": "32"
+        "q3": "22",
+        "q4": "26"
       },
       "location": "HP Field House - Orlando, FL",
       "tvNetwork": "ESPN"
     },
     {
-      "tipTimeEastern": "8:00 PM ET",
+      "tipTimeEastern": "3:30 PM ET",
       "awayTeam": {
-        "name": "Sacramento",
-        "nickname": "Kings",
-        "score": "120",
-        "q1": "30",
-        "q2": "35",
-        "q3": "27",
-        "q4": "28"
+        "name": "Utah",
+        "nickname": "Jazz",
+        "score": "94",
+        "q1": "15",
+        "q2": "27",
+        "q3": "20",
+        "q4": "32"
       },
       "homeTeam": {
-        "name": "San Antonio",
-        "nickname": "Spurs",
-        "score": "129",
-        "q1": "43",
-        "q2": "21",
+        "name": "Oklahoma City",
+        "nickname": "Thunder",
+        "score": "110",
+        "q1": "29",
+        "q2": "37",
+        "q3": "20",
+        "q4": "24"
+      },
+      "location": "The Arena (WWOS) - Orlando, FL",
+      "tvNetwork": "ESPN"
+    },
+    {
+      "tipTimeEastern": "6:00 PM ET",
+      "awayTeam": {
+        "name": "New Orleans",
+        "nickname": "Pelicans",
+        "score": "103",
+        "q1": "25",
+        "q2": "20",
+        "q3": "21",
+        "q4": "37"
+      },
+      "homeTeam": {
+        "name": "Los Angeles",
+        "nickname": "Clippers",
+        "score": "126",
+        "q1": "37",
+        "q2": "40",
+        "q3": "26",
+        "q4": "23"
+      },
+      "location": "HP Field House - Orlando, FL",
+      "tvNetwork": "ESPN"
+    },
+    {
+      "tipTimeEastern": "7:00 PM ET",
+      "awayTeam": {
+        "name": "Philadelphia",
+        "nickname": "76ers",
+        "score": "121",
+        "q1": "29",
+        "q2": "26",
         "q3": "32",
-        "q4": "33"
+        "q4": "34"
+      },
+      "homeTeam": {
+        "name": "Indiana",
+        "nickname": "Pacers",
+        "score": "127",
+        "q1": "35",
+        "q2": "26",
+        "q3": "20",
+        "q4": "46"
       },
       "location": "VISA Athletic Center - Orlando, FL",
       "tvNetwork": "None"
     },
     {
-      "tipTimeEastern": "9:00 PM ET",
+      "tipTimeEastern": "8:30 PM ET",
       "awayTeam": {
-        "name": "Houston",
-        "nickname": "Rockets",
-        "score": "153",
-        "q1": "42",
-        "q2": "33",
-        "q3": "33",
-        "q4": "31"
+        "name": "Los Angeles",
+        "nickname": "Lakers",
+        "score": "92",
+        "q1": "21",
+        "q2": "23",
+        "q3": "26",
+        "q4": "22"
       },
       "homeTeam": {
-        "name": "Dallas",
-        "nickname": "Mavericks",
-        "score": "149",
-        "q1": "42",
-        "q2": "43",
-        "q3": "34",
-        "q4": "20"
+        "name": "Toronto",
+        "nickname": "Raptors",
+        "score": "107",
+        "q1": "23",
+        "q2": "18",
+        "q3": "31",
+        "q4": "35"
       },
       "location": "The Arena (WWOS) - Orlando, FL",
       "tvNetwork": "ESPN"
     }
   ],
-  "date": "07/31/20"
+  "date": "08/01/20"
 }

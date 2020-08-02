@@ -28,15 +28,6 @@ class App extends Component{
   }
 
   render () {
-    // let teams = [];
-    //
-    // for(let i=0; i<Data.games.length; i++) {
-    //   teams.push(Data.games[i]["awayTeam"]["nickname"]);
-    //   teams.push(Data.games[i]["homeTeam"]["nickname"]);
-    // }
-    //
-    // teams = teams.sort();
-    // this.setState({favoriteTeam: teams[0]});
 
     return (
       <div className="App">
@@ -65,7 +56,7 @@ class App extends Component{
             index={index}
             location={game.location}
             tipTime={game.tipTimeEastern}
-            favoriteGame={(this.state.favoriteTeam == game.homeTeam.nickname) || (this.state.favoriteTeam == game.awayTeam.nickname)}
+            favoriteGame={(this.state.favoriteTeam === game.homeTeam.nickname) || (this.state.favoriteTeam === game.awayTeam.nickname)}
           />
         )}
       </div>
