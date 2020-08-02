@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-nba-scoreboard/static/css/main.09eb33a0.chunk.css",
-    "main.js": "/react-nba-scoreboard/static/js/main.37969a7f.chunk.js",
-    "main.js.map": "/react-nba-scoreboard/static/js/main.37969a7f.chunk.js.map",
+    "main.css": "/react-nba-scoreboard/static/css/main.4a339932.chunk.css",
+    "main.js": "/react-nba-scoreboard/static/js/main.4bc0c458.chunk.js",
+    "main.js.map": "/react-nba-scoreboard/static/js/main.4bc0c458.chunk.js.map",
     "runtime-main.js": "/react-nba-scoreboard/static/js/runtime-main.c24b7339.js",
     "runtime-main.js.map": "/react-nba-scoreboard/static/js/runtime-main.c24b7339.js.map",
     "static/js/2.5f7e5024.chunk.js": "/react-nba-scoreboard/static/js/2.5f7e5024.chunk.js",
     "static/js/2.5f7e5024.chunk.js.map": "/react-nba-scoreboard/static/js/2.5f7e5024.chunk.js.map",
     "index.html": "/react-nba-scoreboard/index.html",
-    "precache-manifest.fecab9e7844544e3799f42f81ca0153c.js": "/react-nba-scoreboard/precache-manifest.fecab9e7844544e3799f42f81ca0153c.js",
+    "precache-manifest.b7d8ad18e1e0e50e4d6b32818e675c2a.js": "/react-nba-scoreboard/precache-manifest.b7d8ad18e1e0e50e4d6b32818e675c2a.js",
     "service-worker.js": "/react-nba-scoreboard/service-worker.js",
-    "static/css/main.09eb33a0.chunk.css.map": "/react-nba-scoreboard/static/css/main.09eb33a0.chunk.css.map",
+    "static/css/main.4a339932.chunk.css.map": "/react-nba-scoreboard/static/css/main.4a339932.chunk.css.map",
     "static/js/2.5f7e5024.chunk.js.LICENSE.txt": "/react-nba-scoreboard/static/js/2.5f7e5024.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c24b7339.js",
     "static/js/2.5f7e5024.chunk.js",
-    "static/css/main.09eb33a0.chunk.css",
-    "static/js/main.37969a7f.chunk.js"
+    "static/css/main.4a339932.chunk.css",
+    "static/js/main.4bc0c458.chunk.js"
   ]
 }
